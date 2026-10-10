@@ -1,0 +1,14 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+/* .wrapper{
+    background-color: red;
+    height: 100px;
+
+} */
+body {
+    /* background: linear-gradient(to right,red,purple); */
+    background-image:radial-gradient(circle,yellow 5%,blue 5%,pink,green,red,black);
+    height: 100vh;
+}

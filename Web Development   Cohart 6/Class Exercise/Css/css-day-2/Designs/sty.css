@@ -1,0 +1,336 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+
+
+.header {
+   background-color: teal;
+   height: 80px;
+   display: flex;
+   padding: 10px;
+   align-items: center;
+   justify-content: space-between;
+   font-family: "montserrat";
+   font-size: 28px;
+   margin: bottom 5px;
+    
+}
+.header .logo p span {
+    font-size: 18px;
+    color: blueviolet;
+    width: 5px;
+    height: 5px;
+    border-radius: 100%;
+    background-color: #fff;
+    margin-top: 20px;
+}
+
+.header .logo {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: radial-gradient(circle, purple, blue);
+    border-radius: 100%;
+    color: rgb(255, 255, 255);
+}
+
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-family: "montserrat", Arial;
+    padding: 10px;
+}
+
+.navbar ul li {
+    padding: 10px;
+}
+
+.navbar ul li:hover {
+    /* background-color: rgb(4, 252, 251); */
+    text-decoration: underline;
+    /* border-radius: 10px; */
+    padding: 10px;
+    color: #fff;
+}
+
+.header .btn {
+    border: none;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px 15px;
+    font-family: "montserrat", Arial;
+    font-size: large;
+    cursor: pointer;
+}
+
+.header .btn:hover {
+    border-radius: 10px;
+    background-color: teal;
+    border: 1px solid white;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+}
+
+.container .hero-section {
+    border: 0px solid red;
+    display: flex;
+    gap: 15px;
+}
+
+.container .hero-section div.sect {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;
+    padding-left: 10px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.container .hero-section div.sect .hero-text h1 {
+    font-family: "montserrat", Arial;
+    font-size: 2rem;
+    font-weight: 900;
+    /* padding-left: 10px; */
+}
+
+.container .hero-section div.sect .hero-text p {
+    font-size: 20px;
+    line-height: 1.5;
+    /* padding-left: 10px; */
+}
+
+.container .hero-section div.sect .hero-btn {
+    
+    width: 100%;
+}
+.hero-btn {
+    display: flex;
+    gap: 10px;
+    
+}
+
+.hero-btn button {
+    width: 200px;
+    padding: 10px 15px;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5%;
+}
+
+.container .hero-section div .hero-btn button:nth-child(1) {
+    background-color: teal;
+    color: #fff;
+    
+}
+
+.container .hero-section div .hero-btn button:nth-child(1):hover {
+    background-color: #aaa;
+}
+
+.container .hero-section div .hero-btn button:nth-child(2):hover {
+    background-color: #aaa;
+}
+
+.hero-img img {
+    width: 350px;
+    height: 350px;
+    border-radius: 100%; 
+    transition: all 2s;
+}
+
+.hero-img img:hover {
+    /* transform: rotate(360deg); */
+    /* transform: translate(10px); */
+    /* transform: skew(100deg); */
+
+    
+}
+
+.product-section img {
+    width: 10px;
+    height: 100px;
+}
+
+.product-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    
+}
+
+.product-section .card {
+    width: 400px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgb(0,0,0,0.1);
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.card .desc {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.card .desc .data {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.data .title {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.desc .btn {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.desc .btn button {
+    border: none;
+    padding: 10px 15px;
+    background-color: teal;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.card img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    
+}
+/* form styles */
+form {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+label{
+    display: block;
+}
+
+input[type="text"], select{
+    width: 100%;
+    padding: 12px;
+    display: inline block;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    background-color: #4caf50;
+    color: #fff;
+    margin: 8px 0;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    padding: 14px;
+}
+
+
+input[type="submit"]:hover{
+    background-color: #45a049;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ================== Responsive design ============= */
+
+@media screem and (max-width: 768px) { 
+body{
+    overflow: hidden;
+}
+    .navbar {
+
+    
+}
+.header{
+    width: 100px;
+    display: none;
+}
+
+.hero-section{
+    flex-direction: column;
+}
+
+.hero-btn {
+    flex-direction: column;
+}
+
+.sect {
+    padding: 10px;
+}
+
+.hero-img{
+    width: 500px;
+}
+.product-section{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* form styles */
+.form-section{
+width: 70%;}
+
+.product-section {
+    flex-direction: column;
+}
+
+.remove{
+    display: none;
+}
+
+.product-section.card {
+    width: 200px;
+}
+
+.product-section.card img {
+width: 100%;
+}
+
+}
